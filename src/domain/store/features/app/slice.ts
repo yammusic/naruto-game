@@ -10,20 +10,14 @@ import {
   // setSidebarMenuActive,
   setCurrentUser,
 } from './actions'
-import { sidebarMenu } from './sidebar'
+// import { sidebarMenu } from './sidebar'
 import type { AppState } from './types'
 
 const initialState: AppState = {
-  cities: [],
-  countries: [],
   currentUser: null,
   isReady: false,
-  roles: [],
-  sessions: [],
-  sidebarMenu,
-  sidebarMenuActive: [],
-  states: [],
-  users: [],
+  // sidebarMenu,
+  // sidebarMenuActive: [],
 }
 
 const persistConfig = {
