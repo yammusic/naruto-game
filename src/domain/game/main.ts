@@ -10,7 +10,6 @@ import { GameOver } from './scenes/GameOver'
 import {
   GAME_BACKGROUND,
   GAME_CONTAINER_ID,
-  GAME_GRAVITY,
   GAME_HEIGHT,
   GAME_WIDTH,
 } from '../constants/game'
